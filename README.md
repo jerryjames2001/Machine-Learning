@@ -25,6 +25,6 @@ Matplotlib: For data visualization.
 ## Installation<br>
 To run the code in this repository, you'll need to have Python installed. You can set up your environment by following these steps:
 1. Clone this repository:
-'''bash
+```bash
 git clone https://github.com/jerryjames2001/Machine-Learning.git
-'''
+```
