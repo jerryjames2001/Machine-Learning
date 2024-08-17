@@ -6,7 +6,6 @@
 ## Table-of-Contents
 <li>Introduction</li>
 <li>Technologies Used</li>
-<li>Projects</li>
 <li>Installation</li>
 <li>Usage</li>
 <li>Contributing</li>
