@@ -7,7 +7,7 @@ plt.figure(figsize=(10,6))
 plt.subplot(111)
 plt.plot(years, car_value,color='red',marker="*",linestyle="-.",markersize=20,markerfacecolor='green')     
 plt.title('Jerry James \n MCA 23-25',loc='right')
-plt.title('vlue deprication',loc='left')
+plt.title('value deprication',loc='left')
 plt.xlabel('Years')
 plt.ylabel('Car Value')
 
