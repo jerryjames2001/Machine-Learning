@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report,confusion_matrix
 
-dataset = pd.read_csv("iris.csv")
+dataset = pd.read_csv("./iris.csv")
 x = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,4].values
 
