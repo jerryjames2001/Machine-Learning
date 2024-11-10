@@ -1,7 +1,4 @@
-from itertools import count
-
 import pandas as pd
-from nltk import accuracy
 
 data = pd.read_csv('car.csv')
 col_names = ['buying','maint','doors','persons','lug_boot','safety','class']

@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from PIL.Image import preinit
-from docutils.nodes import classifier
 
 dataset = pd.read_csv('iris.csv')
 x=dataset.iloc[:,:4].values

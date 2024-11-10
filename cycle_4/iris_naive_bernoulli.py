@@ -1,9 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from docutils.nodes import classifier
 
-from cycle_4.iris_naive_gaussian import y_pred
 
 dataset = pd.read_csv('iris.csv')
 x=dataset.iloc[:,:4].values

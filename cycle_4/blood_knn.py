@@ -1,12 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from docutils.nodes import classifier
+
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report,confusion_matrix
 
-dataset = pd.read_csv("Blood_Transfusion.csv")
+dataset = pd.read_csv("./Blood_Transfusion.csv")
 x=dataset.iloc[:,:-1].values
 y=dataset.iloc[:,4].values
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.20)
